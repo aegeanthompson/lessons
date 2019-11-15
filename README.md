@@ -15,7 +15,9 @@ Prerequisites: HTML, CSS basics<br>
 
 ## What is CSS Grid?
 
-CSS Grid Layout is a two-dimensional layout system (which means it includes both columns and rows) with its emphasis on rows and columns. So far we've been using Flexbox which is very useful, but is only a one-dimensional system (it controls either columns OR rows). You can actually use Flexbox and Grid together.
+CSS Grid Layout is a two-dimensional layout system (which means it includes both columns and rows). So far we've been using Flexbox which is very useful, but is only a one-dimensional system (it controls either columns OR rows). You can actually use Flexbox and Grid together.
+
+Grid is a very useful when you need to custom your layout beyond the capabilities of floats or Flexbox.
 
 ### Can I use grid?
 
