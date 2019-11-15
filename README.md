@@ -95,14 +95,14 @@ Let's start with our header section.
 }
 ```
 
-#### Now define our  `.header` rows:
+#### Now define how many rows we would like for our  `.header` to span:
 
 ```
 .header {
   grid-row-start: 1;
 }
 ```
-We aren't going to specify our row end point because for this grid we will just have one row.
+We aren't going to specify our row end point because we want our '.header' to only span one row.
 
 #### We can move on to the sidebars now
 
