@@ -17,7 +17,7 @@ Prerequisites: HTML, CSS basics<br>
 
 CSS Grid Layout is a two-dimensional layout system (which means it includes both columns and rows). So far we've been using Flexbox which is very useful, but is only a one-dimensional system (it controls either columns OR rows). You can actually use Flexbox and Grid together.
 
-Grid is a very useful when you need to custom your layout beyond the capabilities of floats or Flexbox.
+Grid is a very useful when you need to custom your layout beyond the capabilities of floats, positioning and inline-block, or Flexbox. It is the most roboust layout system in CSS. You utilize Grid by applying CSS rules to both the parent (Grid Container) and the children (Grid Items).
 
 ### Can I use Grid?
 
@@ -52,7 +52,7 @@ You can always check out [caniuse.com](http://caniuse.com/) and [shouldiprefix](
 - `main.css` is the only file you will edit this morning
 - Open `index.html` in your browser
 
-*(Fun fact Firefox includes a Grid Inspector, you can open it there if you have it - or you can check-out my example)
+*(Fun fact: Firefox includes a Grid Inspector, you can open it there if you have it - or you can check-out my example)*
 
 #### Let's start by adding in our grid
 main.css
