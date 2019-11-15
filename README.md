@@ -213,9 +213,9 @@ So our text is looking pretty funky, let's go ahead and clean that up.
 
 We are able to both `justify-items` (aligns items along the row axis) and `align-items` (aligns items along the column axis).
 
-Additionally you can use `place-content` which allows you to specify both of the above in one line.
+Additionally you can use `place-items` which allows you to specify both of the above in one line.
 
-#### Let's use `align-items` to center our text
+#### Let's use `place-items` to center our text
 
 ```
 .container > div, h1, h2 {
