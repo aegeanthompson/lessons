@@ -19,7 +19,7 @@ CSS Grid Layout is a two-dimensional layout system (which means it includes both
 
 Grid is a very useful when you need to custom your layout beyond the capabilities of floats or Flexbox.
 
-### Can I use grid?
+### Can I use Grid?
 
 Grid is supported almost universally on modern browsers.
 
@@ -46,13 +46,13 @@ You can always check out [caniuse.com](http://caniuse.com/) and [shouldiprefix](
 ### Getting Started
 
 #### Starter-Code Directory
-- cd into w10d02 morning_exercise folder
+- cd into w10d02 `morning_exercise` folder
 - atom .
 - Inside there are two files `index.html` and `main.css`
 - `main.css` is the only file you will edit this morning
 - Open `index.html` in your browser
 
-(Fun fact Firefox includes a Grid Inspector, you can open it there if you have it - or you can check-out my example)
+*(Fun fact Firefox includes a Grid Inspector, you can open it there if you have it - or you can check-out my example)
 
 #### Let's start by adding in our grid
 main.css
@@ -102,7 +102,7 @@ Let's start with our header section.
   grid-row-start: 1;
 }
 ```
-We aren't going to specify our row end point because for this lesson we will just have one row.
+We aren't going to specify our row end point because for this grid we will just have one row.
 
 #### We can move on to the sidebars now
 
