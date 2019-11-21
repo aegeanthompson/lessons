@@ -1,0 +1,248 @@
+/* ================= */
+/*  IMPORTED FONTS   */
+/* ================= */
+@import url('https://fonts.googleapis.com/css?family=Nova+Round|Overpass:300,400|Raleway:300,400&display=swap');
+
+/* ================= */
+/*     VARIABLES     */
+/* ================= */
+:root {
+  /* fonts */
+  --main-font: 'Overpass';
+  --accent-font: 'Raleway';
+  --header-font: 'Nova Round';
+  /* colors */
+  --grey-purple: rgb(92, 93, 104);
+  --light-green: rgb(180, 177, 107);
+}
+
+/* ================= */
+/*      GENERAL      */
+/* ================= */
+body {
+  background: #f9f9f9;
+  font-family: var(--main-font);
+  padding: 0;
+  margin: 0;
+  color: #444;
+}
+/* ================= */
+/*       HEADER      */
+/* ================= */
+header {
+  min-width: 750px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eee;
+  background-image: url(https://imgur.com/rZ8LM7C.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 5px solid white;
+}
+header span {
+  font-family: var(--accent-font);
+  font-style: oblique;
+  font-weight: 300;
+  color: #777;
+  display: inline-block;
+  margin-left: 105px;
+}
+header span:after {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 1px;
+  background: #ccc;
+  margin: 5px 10px;
+}
+header h1 {
+  font-family: var(--header-font);
+  font-size: 5em;
+  color: var(--grey-purple);
+  margin: 0px 100px;
+}
+header h1 strong {
+  color: var(--light-green);
+}
+
+/* ================= */
+/*   MAIN CONTAINER  */
+/* ================= */
+.main-container {
+  display: flex;
+}
+
+/* ================= */
+/*       ASIDE       */
+/* ================= */
+aside {
+  width: 300px;
+  min-height: calc(100vh - 245px);
+  padding: 0px 20px;
+  box-sizing: border-box;
+  background: rgb(120, 121, 130);
+}
+aside h1 {
+  font-family: var(--header-font);
+  font-size: 2em;
+  color: whitesmoke;
+  border-bottom: 3px solid var(--light-green);
+  margin-bottom: 0;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+aside li {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: rgb(120, 121, 130);
+  font-family: var(--accent-font);
+  margin-bottom: 5px;
+  background: #eee;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+aside li:hover {
+  background: var(--light-green);
+  color: white;
+  cursor: pointer;
+}
+
+/* ================= */
+/*       MAIN        */
+/* ================= */
+main {
+  width: calc(100% - 300px);
+}
+main > h1 {
+  font-family: var(--header-font);
+  font-size: 2em;
+  color: var(--grey-purple);
+  border-bottom: 3px solid var(--light-green);
+  width: 85%;
+  margin: 27px auto;
+  text-transform: uppercase;
+}
+
+/* ================= */
+/*       POSTS       */
+/* ================= */
+article, form {
+  width: 85%;
+  padding: 15px 20px 0px 20px;
+  box-sizing: border-box;
+  background: white;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px #eee;
+}
+.post-header {
+  display: flex;
+}
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid #ddd;
+}
+.post-header h1 {
+  font-family: var(--header-font);
+  font-size: 1.7em;
+  color: var(--grey-purple);
+  margin: 5px 10px;
+}
+.post-body {
+  margin: 10px 20px;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  border-left: 2px solid var(--light-green);
+}
+.post-options ul {
+  width: 95%;
+  margin: 20px auto;
+  border-top: 1px solid #eee;
+  list-style-type: none;
+  padding: 10px 0px;
+  font-family: var(--accent-font);
+  font-weight: 300;
+  color: #888;
+}
+.post-options li {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.post-options li:hover {
+  background: var(--light-green);
+  color: white;
+  cursor: pointer;
+}
+
+/* ================= */
+/*       FORM        */
+/* ================= */
+form {
+  padding: 20px;
+  text-align: center;
+}
+label {
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: var(--header-font);
+  color: var(--light-green);
+}
+input[type="text"] {
+  display: inline-block;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+textarea {
+  width: 94%;
+  display: block;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 13px;
+  margin-top: 10px;
+}
+#post-form {
+  width: 94%;
+}
+input[type="submit"] {
+  display: block;
+  border: 0;
+  background: var(--grey-purple);
+  color: white;
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px auto 0px auto;
+}
+input[type="submit"]:hover {
+  background-color: var(--light-green);
+  cursor: pointer;
+}
