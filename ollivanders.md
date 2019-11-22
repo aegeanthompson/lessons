@@ -1,5 +1,7 @@
 ![](https://imgur.com/4cnukJk.png)
 
+# Ollivanders Wand Shop
+
 ![](https://imgur.com/RVuuRU7.png)
 
 The Wand Ban in the Wizarding World has been lifted! This ban (*passed in 1631*) prevented non-human magical beings from using wands and extending their powers. 
