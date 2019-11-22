@@ -159,6 +159,7 @@ in the CustomerList component, inside the li, let's add a button that says 'Wand
 1. Let's fix this by only allowing the button to show up if `wandSelected` is false
 2. Let's update our state, add a key `wandSelected` to each customer with a property of `false` to start
 3. Add a ternary operator to determine whether or not a button should be displayed in the CustomerList component
+4. Use React Dev tools to change the value of `wandSelected` from false to true to test
 4. Not working? Did you pass this property down from App?
 
 ![](https://imgur.com/rM5MfKA.png)
