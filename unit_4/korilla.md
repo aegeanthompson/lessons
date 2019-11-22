@@ -12,8 +12,11 @@ Build a prototype of this short order receipts tracker.
 
 ## Part 1: Get Started
 
-Create a new folder for this project. Make an `index.html` and `app.js` ... follow the notes from class/lab to create an App component that renders
- an `h1` with some text inside it
+Use Create React App (and don't forget to remove the .git) to set up a react project called `korilla-app`
+
+In App.js clear out all their stuff and just have an h1 element displaying 'Hello World'
+
+You should now have an h1 element render in the DOM
 
 
 ## Part 2: Sample Receipts
