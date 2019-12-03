@@ -7,7 +7,7 @@ Competencies: Basic PHP and Classes<br>
 # PHP Blackjack
 ![Card image](https://i.imgur.com/a62n4Kz.png) ![Card image](https://i.imgur.com/9KINWK9.png)
 
-Blackjack is a card game. PHP is aN open source general-purpose scripting language. Use the following outline to guide you to build a PHP Blackjack game. You may have other approaches, different features you want to add, but to get the most out of practicing Classes, try our way and if you have time, build the stuff you want as bonus.
+Blackjack is a card game. PHP is an open source general-purpose scripting language. Use the following outline to guide you to build a PHP Blackjack game. You may have other approaches, different features you want to add, but to get the most out of practicing Classes, try our way and if you have time, build the stuff you want as bonus.
 
 This game will be made up of two players. One will be a person interacting with the console, the other will be The House, which will be played by the computer.
 
