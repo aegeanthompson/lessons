@@ -18,7 +18,6 @@ class App extends React.Component {
     this.setState({[event.target.id]: event.target.value})
   }
   handleSubmit(event) {
-    console.log("handle submit activated");
     event.preventDefault()
     const newItem = {
       item: this.state.item,
@@ -35,7 +34,6 @@ class App extends React.Component {
       quantity: 0,
       isPurchased: false
     })
-    console.log(this.state.groceries);
   }
 
   togglePurchased (item) {
