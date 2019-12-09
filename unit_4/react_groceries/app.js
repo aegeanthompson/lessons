@@ -34,7 +34,6 @@ class App extends React.Component {
       quantity: 0,
       isPurchased: false
     })
-    console.log(this.state.groceries);
   }
 
   togglePurchased (item) {
@@ -42,7 +41,6 @@ class App extends React.Component {
     this.setState({
       isPurchased: item.isPurchased
     })
-    console.log(item.isPurchased);
   }
 
   render () {
@@ -104,7 +102,6 @@ class App extends React.Component {
           <h2>To Purchase:</h2>
           <ul>
             {this.state.groceries.map(item => {
-              console.log(item);
               return (
                 <li className={item.isPurchased ? 'purchased': null} >
                   {item.item} {item.brand} {item.units} {item.quantity}
