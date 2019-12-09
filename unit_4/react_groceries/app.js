@@ -8,7 +8,7 @@ class App extends React.Component {
       brand: '',
       units: '',
       quantity: 0,
-      isPurchased: true
+      isPurchased: false
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -27,19 +27,20 @@ class App extends React.Component {
       isPurchased: false
     }
     this.setState({
-      groceries: [ newItem, ...groceries ],
+      groceries: [ newItem, ...this.state.groceries ],
       item: '',
       brand: '',
       units: '',
       quantity: 0,
       isPurchased: false
     })
+    console.log(this.state.groceries);
   }
 
   togglePurchased (item) {
     item.isPurchased = !item.isPurchased;
     this.setState({
-      isPurchased: this.state.isPurchased
+      isPurchased: item.isPurchased
     })
     console.log(item.isPurchased);
   }
@@ -103,17 +104,16 @@ class App extends React.Component {
           <h2>To Purchase:</h2>
           <ul>
             {this.state.groceries.map(item => {
-              if (!item.isPurchased){
+              console.log(item);
               return (
-                <li>
+                <li className={item.isPurchased ? 'purchased': null} >
                   {item.item} {item.brand} {item.units} {item.quantity}
                   <br />
-                  <button onClick={this.togglePurchased}>Remove</button>
+                  <button onClick={() => this.togglePurchased(item)}>Remove</button>
                 </li>
               )
             }
-          }
-        )}
+          )}
           </ul>
       </div>
     </div>
