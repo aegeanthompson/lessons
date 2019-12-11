@@ -10,18 +10,18 @@ class DivThree extends React.Component {
       this.changeIt = this.changeIt.bind(this)
   }
 
-  changeIt() {
+  changeIt(text) {
   if (this.state.tardis.caps) {
     this.setState({
       tardis: {
-        name: this.state.tardis.name.toLowerCase(),
+        name: text.toLowerCase(),
         caps: false
       }
     })
   } else {
     this.setState({
       tardis: {
-        name: this.state.tardis.name.toUpperCase(),
+        name: text.toUpperCase(),
         caps: true
       }
     })
@@ -30,7 +30,7 @@ class DivThree extends React.Component {
       render () {
         return (
           <div>
-            <h3 onClick={this.changeIt}>{this.state.tardis.name}</h3>
+            <h3 onClick={() => this.changeIt(this.state.tardis.name)}>{this.state.tardis.name}</h3>
           </div>
         )
       }
