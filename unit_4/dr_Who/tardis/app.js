@@ -1,8 +1,3 @@
-/* global ReactDOM:true */
-/* global React:true */
-/* eslint no-undef: "error" */
-
-
 class DivThree extends React.Component {
   constructor (props) {
     super(props)
@@ -68,7 +63,6 @@ class DivOne extends React.Component {
 }
 
 class App extends React.Component {
-
   render () {
     return (
       <div>
