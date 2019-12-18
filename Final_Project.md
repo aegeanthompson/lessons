@@ -108,7 +108,7 @@ ALSO, don't forget: a **technical demonstration** of your app which:
 <hr>
 
 ## Project due date is January 8th
-**Friday,**<br>
+
 As usual, fill out your project information via the [google presentation sheet](https://docs.google.com/spreadsheets/d/1c9tJCuLlJJOxtGeuuIofkRLAqbrexdb84Sjt3uGHMBw/edit?usp=sharing) and remember this is the order in which you'll be presenting! January 8th is also graduation day! You'll present your final projects (portfolio inluded), and then we'll have a few graduation day activities. Attendance is of course mandatory!
 
 ## Meetings with instructors
