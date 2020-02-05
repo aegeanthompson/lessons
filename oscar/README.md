@@ -1,4 +1,4 @@
-[![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)
+[![General Assembly Logo](https://imgur.com/qJlJUYG.png)](https://generalassemb.ly)
 
 # Oscar Mockup
 
